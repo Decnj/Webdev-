@@ -18,7 +18,7 @@ a{
 .container{
     width: 96%;
     height: auto;
-    margin: 10px 10px;
+    margin: 10px auto;
     background-color: rgb(251, 248, 239);
     border: 1px solid goldenrod;
     box-shadow: 1px 1px 25px rgb(51, 49, 49) inset;
@@ -45,7 +45,7 @@ a{
 
 .main-menu > ul{
     padding: 2px;
-    margin: 10px 20px; 
+    margin: 10px auto; 
     list-style-type: none;
     display: flex;
 }
@@ -149,7 +149,7 @@ a{
     flex: 0 0 auto; /* Prevent the list items from shrinking or growing */
     width: 500px; /* Set a fixed width for each image container */
     height: 350px; /* Set a fixed height for each image container */
-    margin: 5px; /* Add some space around each item */
+    margin: 1px; /* Add some space around each item */
 }
 
 #autoplay .slides {
@@ -181,6 +181,23 @@ a{
     width: 76%;
 }
 
+.sidebar {
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.widget li {
+    list-style-type: none;
+}
+
+.widget li a {
+    color:rgb(51, 49, 49);
+}
+
+.widget h3 {
+    padding-left: 30px;
+}
 
 
 
