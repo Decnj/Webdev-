@@ -16,6 +16,7 @@ a {
 }
 
 .container{
+    max-width: 1200px;
     width: 96%;
     height: auto;
     margin: 10px auto;
@@ -48,6 +49,7 @@ a {
     margin: 10px auto; 
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
 }
 
 .main-menu > ul > li > a{
@@ -58,11 +60,11 @@ a {
 }
 
 .main-menu a:hover,
-.sidebar li a:hover{
+.sidebar li a:hover,
+.footer-widget a:hover {
     background-color: orange;
     color: rgb(51, 49, 49);
     border-radius: 5%;
-    padding: 3px;
     opacity: 1;
 }
 
@@ -277,8 +279,9 @@ a {
 .journey {
    width: 60%;
    margin-left: 140px;
-   line-height: 1.5em;;
    margin-top: 100px;
+   margin-bottom: 30px;
+   line-height: 1.5em;;
 }
 
 .footer-widget-holder {
@@ -308,4 +311,68 @@ a {
     color: wheat;
 }
 
+.social-media {
+      margin-top: 40px;
+      margin-right: 100px;
+}
 
+.social-media p {
+      margin-left: -60px;
+}
+
+.social-icons {
+        display: flex;
+        align-items: center;
+        gap: 65px;
+}
+
+.social-icons a {
+    color: inherit;
+    font-size: 25px;
+    margin-left: -55px;
+}
+
+.site-footer {
+    background-color: rgb(43, 42, 42);
+    color: whitesmoke;
+    width: 97.5%;
+    height: auto;
+    margin: 20px;
+    margin-bottom: -10px;
+}
+
+.site-footer p {
+    text-align: center;
+    margin-top: -20px;
+    color: wheat;
+}
+
+/* Mobile Menu */
+ .mobile-menu {
+    display: none !important;
+ }
+/* Mobile Menu */
+
+
+/* Responsive web design */
+@media screen and (max-width: 800px) {
+    .mobile-menu {
+        display: flex;
+     }
+
+     .main-header{
+        width: auto;
+        height: auto;
+     }
+
+     .main-menu > ul > li > a {
+        display: none;
+     }
+    
+     .mobile-menu {
+        display: grid !important;
+     }
+
+}
+/* Responsive web design */
+ 
